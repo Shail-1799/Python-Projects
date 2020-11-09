@@ -1,13 +1,11 @@
 # A simple program that encrypts your text using Digrapgh Cipher method #
 
+# You can find the table that I used to encrypt the text using below given link. Save it as 'dgcph.jpg' #
+# https://www.google.com/url?sa=i&url=https%3A%2F%2Fcrypto.interactive-maths.com%2Fdigraph-substitution-ciphers.html&psig=AOvVaw27PUfxyisv5U6olwTKQKLU&ust=1604991496396000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNiitrPx9OwCFQAAAAAdAAAAABAJ#
+
 import cv2
 
-
 def diciph(word):
-
- # c=cv2.imread('dgcph.jpg')
- # cv2.imshow('a',c)
- # cv2.waitKey(0)
 
  word=word.upper()
 
@@ -52,15 +50,11 @@ def diciph(word):
  else:
     print("enter valid word with letters only")
  
- # c=cv2.imread('dgcph.jpg')
- # cv2.imshow('a',c)
- # cv2.waitKey(0)
-
 
 ## DRIVER FUNCTION ##
 
 if __name__ == "__main__":
   a=str(input("Enter the word to be encrypted: "))
-  diciph("shail")
+  diciph(a)
 
 
